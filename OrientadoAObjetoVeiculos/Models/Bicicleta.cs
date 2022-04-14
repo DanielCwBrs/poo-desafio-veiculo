@@ -11,7 +11,7 @@ namespace OrientadoAObjetoVeiculos.Models
     {
         public string ModeloBicicleta { get; set; }
         public IRodas Rodas { get; set; }
-        public Bicicleta(string modeloBicicleta, double peso, IRodas roda) : base(peso)
+        public Bicicleta(string modeloBicicleta, IRodas roda)
         {
             VelocidadeAtual = 0;
             ModeloBicicleta = modeloBicicleta;

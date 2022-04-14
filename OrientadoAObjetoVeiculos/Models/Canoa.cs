@@ -10,7 +10,7 @@ namespace OrientadoAObjetoVeiculos.Models
     {
         public int QuantidadeRemos { get; set; }
 
-        public Canoa(int quantidadeRemos, double peso) : base(peso)
+        public Canoa(int quantidadeRemos)
         {
             VelocidadeAtual = 0;
             QuantidadeRemos = quantidadeRemos;

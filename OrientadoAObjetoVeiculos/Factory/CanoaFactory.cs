@@ -12,7 +12,7 @@ namespace OrientadoAObjetoVeiculos.Factory
     {
         public ICanoa BuildCanoa()
         {
-            return new Canoa(2, 40);
+            return new Canoa(2);
         }
     }
 }

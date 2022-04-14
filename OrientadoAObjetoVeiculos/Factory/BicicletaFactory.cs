@@ -13,7 +13,7 @@ namespace OrientadoAObjetoVeiculos.Factory
     {
         public IBicicleta BuildBicicleta(IRodasFactory rodasFactory)
         {
-            return new Bicicleta("Caloi", 15, rodasFactory.BuildRodaCaloi());
+            return new Bicicleta("Caloi", rodasFactory.BuildRodaCaloi());
         }
     }
 }

@@ -9,12 +9,10 @@ namespace OrientadoAObjetoVeiculos.Models
     public class Veiculo : IVeiculo
     {
         public double VelocidadeAtual { get; set; }
-        public double Peso { get; set; }
 
-        public Veiculo(double peso)
+        public Veiculo()
         {
             VelocidadeAtual = 0;
-            Peso = peso;
         }
         public string Andar()
         {
